@@ -1,0 +1,15 @@
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\acs-demo-console.exe.config
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\acs-demo-console.exe
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\acs-demo-console.pdb
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\Microsoft.ServiceBus.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\Newtonsoft.Json.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\RestSharp.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\ServiceStack.Text.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\Slack.Webhooks.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\Microsoft.ServiceBus.xml
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\Newtonsoft.Json.xml
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\RestSharp.xml
+C:\SF\acs-demo-console\acs-demo-console\bin\Release\ServiceStack.Text.xml
+C:\SF\acs-demo-console\acs-demo-console\obj\Release\acs-demo-console.csprojResolveAssemblyReference.cache
+C:\SF\acs-demo-console\acs-demo-console\obj\Release\acs-demo-console.exe
+C:\SF\acs-demo-console\acs-demo-console\obj\Release\acs-demo-console.pdb

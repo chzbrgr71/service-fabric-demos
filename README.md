@@ -1,2 +1,6 @@
-# service-fabric-demos
-Brian Redmond's Azure Service Fabric Demo Collection
+# Brian Redmond's Service Fabric Demo Collection
+
+## Demo List
+- Basic Service Fabric orchestration
+- SF Linux containers
+

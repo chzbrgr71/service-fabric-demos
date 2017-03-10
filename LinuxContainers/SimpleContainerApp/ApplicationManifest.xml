@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApplicationManifest ApplicationTypeName="SimpleContainerApp" ApplicationTypeVersion="1.0" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Simple 2 service container Application</Description>
+    <Parameters>
+        <Parameter Name="ServiceInstanceCount" DefaultValue="3"></Parameter>
+    </Parameters>
+    <ServiceManifestImport>
+        <ServiceManifestRef ServiceManifestName="FrontendServicePackage" ServiceManifestVersion="1.0"/>
+      <EnvironmentOverrides CodePackageRef="FrontendService.Code">
+        <EnvironmentVariable Name="PublicIP" Value="sflinux23.eastus.cloudapp.azure.com"/>
+        <EnvironmentVariable Name="BackendServiceName" Value="SimpleContainerApp/StatelessBackendService"/>
+        <EnvironmentVariable Name="HttpGatewayPort" Value="19080"/>
+      </EnvironmentOverrides>
+     <Policies>
+      <ContainerHostPolicies CodePackageRef="FrontendService.Code">
+        <PortBinding ContainerPort="8905" EndpointRef="Endpoint1"/>
+       </ContainerHostPolicies>
+   </Policies>
+    </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="BackendServicePackage" ServiceManifestVersion="1.0"/>
+    <Policies>
+      <ContainerHostPolicies CodePackageRef="BackendService.Code">
+        <PortBinding ContainerPort="8910" EndpointRef="Endpoint1"/>
+      </ContainerHostPolicies>
+    </Policies>
+  </ServiceManifestImport>
+    <ServiceTemplates>
+        <StatelessService ServiceTypeName="StatelessBackendService" InstanceCount="5">
+            <SingletonPartition />
+        </StatelessService>
+      <StatelessService ServiceTypeName="StatelessFrontendService" InstanceCount="2" >
+        <SingletonPartition/>
+      </StatelessService>
+    </ServiceTemplates>
+</ApplicationManifest>

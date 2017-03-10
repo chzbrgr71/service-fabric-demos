@@ -1,0 +1,15 @@
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\acs-demo-console.exe.config
+C:\SF\acs-demo-console\acs-demo-console\obj\Debug\acs-demo-console.csprojResolveAssemblyReference.cache
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\acs-demo-console.exe
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\acs-demo-console.pdb
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\Microsoft.ServiceBus.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\Microsoft.ServiceBus.xml
+C:\SF\acs-demo-console\acs-demo-console\obj\Debug\acs-demo-console.exe
+C:\SF\acs-demo-console\acs-demo-console\obj\Debug\acs-demo-console.pdb
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\Newtonsoft.Json.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\RestSharp.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\ServiceStack.Text.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\Slack.Webhooks.dll
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\Newtonsoft.Json.xml
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\RestSharp.xml
+C:\SF\acs-demo-console\acs-demo-console\bin\Debug\ServiceStack.Text.xml
